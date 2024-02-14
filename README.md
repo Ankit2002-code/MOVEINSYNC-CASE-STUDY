@@ -39,15 +39,13 @@ On the frontend, a seamless communication process is facilitated through:
 - **Time Complexity**: The search operation for GET can take up to the number of existing versions, while the put operation, involving adding a column to the database, is executed in constant time.
 
 
-![Screenshot (415)](https://github.com/Ankit2002-code/MOVEINSYNC-CASE-STUDY/assets/91961466/8293fac6-f4ac-42f6-8b26-f01405b1cbf2)
+![Screenshot (415)](https://github.com/Ankit2002-code/MOVEINSYNC-CASE-STUDY/assets/91961466/3761a3e9-8db8-4435-9df7-c362b32dde60)
 
 ### **Handling System Failure Cases**
 
 - **Fault Tolerance**: Both backend and frontend are designed with high fault tolerance. Strict type checking in the UI and backend minimizes the risk of undesired input causing issues.
+<img width="545" alt="Untitled 5" src="https://github.com/Ankit2002-code/MOVEINSYNC-CASE-STUDY/assets/91961466/6b247327-12c9-445d-8018-adb83e2287e9">
 
-![Untitled](images/Untitled%202.png)
-
-                  The table defined using Entity which defines the datatypes of all columns being stored
 
 - **Database Consistency**: In the event of a system failure, the database remains constant. During system startup, the database can be seamlessly utilized, minimizing downtime to the system's rebooting time.
 
@@ -55,12 +53,11 @@ On the frontend, a seamless communication process is facilitated through:
 
 - **Abstraction and Encapsulation**: Robust OOPS principles are followed, with extensive abstraction in the backend. Multiple models are created to abstract and encapsulate data storage, enhancing system organization.
 
-![Untitled](images/Untitled%203.png)
-
-                                                   Project structure of the backend
-
 - **Polymorphism**: Implemented to ensure flexibility and adaptability within the codebase.
+- 
 - **Modularization**: The code is highly modularized, enabling easy addition of new functionality. Each feature is organized into its own class, simplifying debugging and maintenance.
+
+- <img width="389" alt="Untitled 2" src="https://github.com/Ankit2002-code/MOVEINSYNC-CASE-STUDY/assets/91961466/11682967-62f2-4e95-95d7-59169410bb86">
 
 ### **Trade-offs in the System**
 
@@ -69,17 +66,16 @@ Since this was created in just less than a day there are bound to be some trade 
 - **UI Choice**: A CLI-style UI was chosen over a full-fledged browser UI due to the simplicity of operations.
 - **Database Selection**: Opting for a simpler database solution (H2) over more advanced options like MySQL or AWS DynamoDB, considering the infrequent changes in floor plans.
 
+  ![Screenshot (413)](https://github.com/Ankit2002-code/MOVEINSYNC-CASE-STUDY/assets/91961466/f550f934-f27e-4a2a-9c08-f8e887b4018b)
+
+
 ### **Error and Exception Handling**
 
-- **Try-Catch Blocks**: Implemented at critical operations to handle potential issues.
-
-![Untitled](images/Untitled%204.png)
-
-                         Handling parsing exceptions while serialisation and deserialisation
-
+- **Try-Catch Blocks**: Implemented at critical operations to handle potential issues. Handling parsing exceptions while serialisation and deserialisation.
 - **Comprehensive Error Handling**: Covers parsing and various aspects to ensure robust application performance.
 
-![Untitled](images/Untitled%205.png)
+<img width="805" alt="Untitled 4" src="https://github.com/Ankit2002-code/MOVEINSYNC-CASE-STUDY/assets/91961466/afd223c9-986e-4851-be3c-f1e0ed7dbaf1">
+
 
                                               Handling backend responses in CLI
 
