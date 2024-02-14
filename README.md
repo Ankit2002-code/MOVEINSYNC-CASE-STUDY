@@ -38,6 +38,9 @@ On the frontend, a seamless communication process is facilitated through:
 - **Space Complexity**: The GET operation involves reading from the database without additional space consumption. In contrast, the post operation for updating the floor plan utilizes a fixed amount of space based on the number of floors and rooms per floor.
 - **Time Complexity**: The search operation for GET can take up to the number of existing versions, while the put operation, involving adding a column to the database, is executed in constant time.
 
+
+![Screenshot (415)](https://github.com/Ankit2002-code/MOVEINSYNC-CASE-STUDY/assets/91961466/8293fac6-f4ac-42f6-8b26-f01405b1cbf2)
+
 ### **Handling System Failure Cases**
 
 - **Fault Tolerance**: Both backend and frontend are designed with high fault tolerance. Strict type checking in the UI and backend minimizes the risk of undesired input causing issues.
