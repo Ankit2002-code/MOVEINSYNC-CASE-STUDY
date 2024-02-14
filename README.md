@@ -18,6 +18,7 @@ For the backend, the system leverages a powerful tech stack to ensure optimal pe
 <img width="560" alt="SPRING BOOT + H2 DATABASE" src="https://github.com/Ankit2002-code/MOVEINSYNC-CASE-STUDY/assets/91961466/8f381a0f-0ffb-4fa0-b260-b4a7a6c501fc">
 
 
+
 On the frontend, a seamless communication process is facilitated through:
 
 - **Python Wrapper**: Developed to communicate with the backend, enabling users to modify, retrieve, and display floor plans with ease.
@@ -26,12 +27,12 @@ On the frontend, a seamless communication process is facilitated through:
 
 ### Authentication
 
-- **Static Authentication Setup**: The system employs a robust static authentication mechanism to control access to floor plan modifications. Specifically, only admin users are granted the authority to make changes, enhancing security and safeguarding the integrity of the floor plans.
+- **Static Authentication Setup**: The system employs a robust static authentication mechanism to control access to floor plan modifications. Specifically, only admin users are granted the authority to make changes, enhancing security and safeguarding the integrity of the floor plans ensuring only admin can update the table
 
-![Untitled](images/Untitled%201.png)
+<img width="866" alt="Untitled 1" src="https://github.com/Ankit2002-code/MOVEINSYNC-CASE-STUDY/assets/91961466/9c2f89d9-cd43-4526-94b1-449bb694167f">
 
-                                          Ensuring only admin can update the table
 
+                                         
 ### Cost Estimation
 
 - **Space Complexity**: The GET operation involves reading from the database without additional space consumption. In contrast, the post operation for updating the floor plan utilizes a fixed amount of space based on the number of floors and rooms per floor.
